@@ -5,9 +5,13 @@ const Navbar: React.FC<{ logoUrl: string | null }> = ({ logoUrl }) => {
     <nav className="sticky top-0 z-50 w-full border-b border-white/10 bg-white/70 backdrop-blur-md transition-all">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex items-center gap-2">
+          <div className={`flex items-center gap-2 ${logoUrl ? 'self-start -mt-2' : ''}`}>
             {logoUrl ? (
-              <img src={logoUrl} alt="VSG Secretary Logo" className="h-9 w-auto" />
+              <img
+                src={logoUrl}
+                alt="VSG Secretary Logo"
+                className="h-28 w-auto max-w-none shadow-sm rounded-b-lg relative z-50"
+              />
             ) : (
               <>
                 <div className="bg-slate-900 text-white p-1.5 rounded-lg">
