@@ -11,7 +11,7 @@ import FAQ from './components/FAQ';
 import { ShieldCheck, UserPlus, FileSpreadsheet, Headset } from 'lucide-react';
 
 const App: React.FC = () => {
-  const whatsappLink = "https://wa.me/60137499586";
+  const whatsappLink = "https://wa.link/24usdq";
   const [logoUrl, setLogoUrl] = useState<string | null>(null);
 
   useEffect(() => {
