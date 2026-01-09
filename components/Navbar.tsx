@@ -26,7 +26,7 @@ const Navbar: React.FC<{ logoUrl: string | null }> = ({ logoUrl }) => {
             <a href="#why-sdnbhd" className="text-slate-600 hover:text-primary transition-colors font-medium">Sdn Bhd 优势</a>
             <a href="#faq" className="text-slate-600 hover:text-primary transition-colors font-medium">常见问题</a>
             <a
-              href="https://wa.me/60137499586"
+              href="https://wa.link/24usdq"
               className="min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-6 bg-primary text-white text-sm font-bold leading-normal tracking-wide shadow-lg shadow-primary/25 transition-all hover:scale-105 hover:bg-primary-hover hover:shadow-primary/40 flex"
             >
               立刻咨询
@@ -34,7 +34,7 @@ const Navbar: React.FC<{ logoUrl: string | null }> = ({ logoUrl }) => {
           </div>
           <div className="md:hidden">
             <a
-              href="https://wa.me/60137499586"
+              href="https://wa.link/24usdq"
               className="bg-primary hover:bg-primary-hover text-white px-4 py-1.5 rounded-full text-sm font-medium transition-all"
             >
               立刻咨询

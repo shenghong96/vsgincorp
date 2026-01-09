@@ -2,7 +2,7 @@
 import React from 'react';
 
 const StorySection: React.FC = () => {
-  const whatsappLink = "https://wa.me/60137499586";
+  const whatsappLink = "https://wa.link/24usdq";
 
   return (
     <section id="story" className="py-12 sm:py-20 bg-slate-50">
@@ -12,7 +12,7 @@ const StorySection: React.FC = () => {
           <h2 className="text-lg sm:text-3xl font-bold text-slate-900 mb-6 italic leading-snug">
             陈先生的“小生意”教训：一纸诉状带走了他的半生积蓄
           </h2>
-          
+
           <div className="space-y-4 sm:space-y-6 text-slate-700 leading-relaxed text-base sm:text-lg mb-10">
             <p>
               陈先生经营着一家小型的家庭用品配送生意。作为 Sole Proprietor，生意一直稳步增长。他原本打算等明年赚够了钱再注册 Sdn Bhd，觉得现在每月给秘书费“划不来”。
@@ -27,10 +27,10 @@ const StorySection: React.FC = () => {
               最终，对方通过法院查封了他的个人银行账户，并强制拍卖了他那套正在供款的排屋来抵债。这不是因为陈先生欺诈，这只是普通的商业风险——但因为他没有通过 Sdn Bhd 建立起那层关键的“法律防火墙”。
             </p>
           </div>
-          
+
           <div className="mt-8 sm:mt-10 pt-8 sm:pt-10 border-t border-slate-100 text-center">
             <p className="text-red-600 font-bold text-lg sm:text-xl mb-6">这种意外，你承受得起吗？</p>
-            <a 
+            <a
               href={whatsappLink}
               className="inline-block px-8 py-4 bg-red-600 text-white font-bold rounded-xl hover:bg-red-700 transition-all shadow-lg"
             >
